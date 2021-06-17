@@ -1,4 +1,11 @@
+html * {
+    margin: 0;
+}
+
+
+
 body{
+    margin: 0;
     /* Centralizar textos */
     text-align: center;
     /* Imagem de fundo */
@@ -14,26 +21,45 @@ body{
     /* Fixar a imagem de fundo */
     background-attachment: fixed;
     /* Cor de Fundo */
-    background-color: black;
-}
-/* Personalizar o título */
-h1 {
-    color: #FF0000;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: black; 
+    color: white;
 }
 
-/* Personalizar os subtítulos */
-#green{
-    color: green;
+#cabecalho{
+    height: 20vh;
+    /*background-color: rgba(220, 20, 60, 0.493);*/
+    background-image: url(https://bit.ly/3gsY01F);
+    font-size: 34px;
+
+    
+    
+}
+
+#conteudo {
+    height: 60vh;
+    background-color:rgba(1, 1, 53, 0.534);
+    color: white;
+    background-image: url(https://bit.ly/3wySkZP);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
     font-style: italic;
 }
 
-#blue {
-    color: blue;
-    font-weight: bold;
+/* #conteudo h3{ */
+    /* color: yellow; */
+    /* font-style: italic; */
+
+
+#rodape {
+    height: 20vh;
+    /*background-color: rgba(0, 255, 255, 0.562);*/
+    background-image: url(https://bit.ly/3gsY01F);
 }
 
-.colors{
-    color: orangered;
-    font-size: 24px;
+.icones{
+    width: 100px;
 }
